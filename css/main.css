@@ -64,3 +64,11 @@ header {
     margin: 1rem 0;
     color: #011627;
 }
+
+.metier {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    line-height: 0.8;
+    margin: -5px;
+    color: #e71d36;
+}
