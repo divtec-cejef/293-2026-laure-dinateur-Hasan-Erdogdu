@@ -62,13 +62,13 @@ header {
     font-size: 1.75rem;
     line-height: 0.8;
     margin: 1rem 0;
-    color: #011627;
+    color: #2ec4b6;
 }
 
 .metier {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.5rem;
     line-height: 0.8;
-    margin: -5px;
+    margin: -5px 0 0;
     color: #e71d36;
 }
