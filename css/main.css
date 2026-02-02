@@ -120,7 +120,6 @@ header {
 
 main {
     margin: 0 5%;
-    text-align: center;
 }
 
 .presentationCentre {
@@ -152,7 +151,7 @@ footer img {
 footer img:hover {
     filter: grayscale(0);
 }
-
+/* Je n'arrive pas a centrer l'image */
 .image-Laure {
     border-radius: 50%;
     max-width: 360px;
@@ -162,4 +161,23 @@ footer img:hover {
 
 .social-X {
     color: #e71d36;
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    display: inline-block;
+}
+
+.contact-list li {
+    margin-bottom: 10px;
+    color: #e71d36;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    vertical-align: middle;
 }
