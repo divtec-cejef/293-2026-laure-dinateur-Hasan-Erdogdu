@@ -1,0 +1,183 @@
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/open-sans-v44-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Changa One';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/changa-one-v22-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #fdfffc;
+    color: #011627;
+    font-size: 100%;
+    line-height: 1.4;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Changa One', cursive;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1em;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.75em;
+}
+
+p {
+    line-height: 1.5;
+}
+
+a {
+    color: #e71d36;
+    text-decoration: none;
+}
+
+header {
+    text-align: center;
+    background: #000;
+    padding-top: 5px;
+    margin-bottom: 30px;
+}
+
+.logo {
+    display: inline-block;
+    font-family: 'Changa One', sans-serif;
+    font-size: 1.75rem;
+    line-height: 0.8;
+    margin: 1rem 0;
+}
+
+.nom {
+    color: #2ec4b6;
+}
+
+.metier {
+    margin-top: -5px;
+}
+
+.nav_links {
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.nav_links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .nav_links .accueil {
+        display: none;
+    }
+}
+
+.nav_links li {
+    display: inline-block;
+}
+
+.nav_links a {
+    font-weight: 800;
+    padding: 15px 10px;
+    margin: 0 15px;
+    display: inline-block;
+}
+
+.nav_links a:hover {
+    color: #2ec4b6;
+}
+
+.quiSuisJe, .meContacter, .accueil {
+    font-size: 1.25rem;
+  font-family: 'Changa One', sans-serif;
+}
+
+.quiSuisJe {
+    color: #2ec4b6;
+}
+
+.meContacter {
+    color: #fdfffc;
+}
+
+main {
+    margin: 0 5%;
+}
+
+.presentationCentre {
+    text-align: center;
+}
+
+footer {
+    padding-top: 50px;
+    text-align: center;
+}
+
+footer nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer li {
+    display: inline-block;
+}
+
+footer img {
+    width: 50px;
+    margin: 0 15px;
+    filter: grayscale(1);
+    transition: filter 500ms linear;
+}
+
+footer img:hover {
+    filter: grayscale(0);
+}
+/* Je n'arrive pas a centrer l'image */
+.image-Laure {
+    border-radius: 50%;
+    max-width: 360px;
+    height: auto;
+    margin: auto;
+}
+
+.social-X {
+    color: #e71d36;
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    display: inline-block;
+}
+
+.contact-list li {
+    margin-bottom: 10px;
+    color: #e71d36;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
