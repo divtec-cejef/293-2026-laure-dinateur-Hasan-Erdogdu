@@ -10,7 +10,7 @@
     <!-- Auteur -->
     <meta name="author" content="Hasan Erdogdu">
     <!-- Icône de base du site : FAVICON -->
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="_sources/images/favicon.ico"/>
     <!-- Lien vers la feuille de style CSS principale -->
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/normalize.css">
@@ -23,7 +23,7 @@
     </a>
 
     <nav>
-        <ul>
+        <ul class="nav_links">
             <a href="index.html"><li class="accueil">Accueil</li></a>
             <a href="informations.html"><li class="quiSuisJe">Qui suis-je?</li></a>
             <a href="contact.html"><li class="meContacter">Me contacter</li></a>
@@ -31,13 +31,23 @@
     </nav>
 </header>
 <body>
-<img src="_sources/images/laure-dinateur-graphiste.jpg" height="480" width="480" alt="Photo de Laure Dinateur" class="image-Laure"/>
-<h1>Laure Dinateur <br> Présentation</h1>
 <main>
+<img src="_sources/images/laure-dinateur-graphiste.jpg" height="480" width="480" alt="Photo de Laure Dinateur" class="image-Laure"/>
+<h1 class="presentationCentre">Laure Dinateur <br> Présentation</h1>
+</main>
     <p>Hello, je suis <strong>Laure Dinateur</strong> ! Bienvenue sur mon portfolio ou je partage mes réalisations favorites.</p>
     <p>Quand je ne dessine pas, j'aime faire du sport, jouer à des jeux vidéos, boire un bon café ou quelque chose de plus corsé.</p>
-    <p>Vous pouvez me suivre sur Twitter, mon nom d'utilisateur est<a href="https://x.com/lauredi" class="social.X">@lauredi.</a></p>
-</main>
+    <p>Vous pouvez me suivre sur Twitter, mon nom d'utilisateur est <a href="https://x.com/lauredi" class="social-X">@lauredi.</a></p>
 </body>
+<footer>
+    <nav class="social-nav">
+        <ul>
+            <li><img src="_sources/images/twitter-draw.png" alt="Twitter"></li>
+            <li><img src="_sources/images/facebook-draw.png" alt="Facebook"></li>
+        </ul>
+    </nav>
+
+    <p class="copyright">&copy;2016 Laure Dinateur</p>
+</footer>
 </html>
 

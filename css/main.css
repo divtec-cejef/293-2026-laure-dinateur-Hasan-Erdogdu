@@ -57,47 +57,74 @@ header {
     margin-bottom: 30px;
 }
 
-.nom {
-    font-family: 'Changa One', cursive;
+.logo {
+    display: inline-block;
+    font-family: 'Changa One', sans-serif;
     font-size: 1.75rem;
     line-height: 0.8;
     margin: 1rem 0;
+}
+
+.nom {
     color: #2ec4b6;
 }
 
 .metier {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.5rem;
-    line-height: 0.8;
-    margin: -5px 0 0;
-    color: #e71d36;
+    margin-top: -5px;
 }
 
-ul {
+.nav_links {
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.nav_links ul {
+    list-style: none;
     padding: 0;
     margin: 0 10px;
 }
 
-li {
-    list-style: none;
-    padding: 0;
-    display: inline-block;
-}
-.accueil {
-    display: none;
-}
-a {
-    font-weight: 800;
-    margin: 30px;
-    padding: 15px 10px;
+@media screen and (max-width: 768px) {
+    .nav_links .accueil {
+        display: none;
+    }
 }
 
-a:hover {
+.nav_links li {
+    display: inline-block;
+}
+
+.nav_links a {
+    font-weight: 800;
+    padding: 15px 10px;
+    margin: 0 15px;
+    display: inline-block;
+}
+
+.nav_links a:hover {
     color: #2ec4b6;
+}
+
+.quiSuisJe, .meContacter, .accueil {
+    font-size: 1.25rem;
+  font-family: 'Changa One', sans-serif;
+}
+
+.quiSuisJe {
+    color: #2ec4b6;
+}
+
+.meContacter {
+    color: #fdfffc;
 }
 
 main {
     margin: 0 5%;
+    text-align: center;
+}
+
+.presentationCentre {
+    text-align: center;
 }
 
 footer {
@@ -105,6 +132,34 @@ footer {
     text-align: center;
 }
 
+footer nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer li {
+    display: inline-block;
+}
+
+footer img {
+    width: 50px;
+    margin: 0 15px;
+    filter: grayscale(1);
+    transition: filter 500ms linear;
+}
+
+footer img:hover {
+    filter: grayscale(0);
+}
+
 .image-Laure {
     border-radius: 50%;
+    max-width: 360px;
+    height: auto;
+    margin: auto;
+}
+
+.social-X {
+    color: #e71d36;
 }
