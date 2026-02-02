@@ -95,3 +95,16 @@ a {
 a:hover {
     color: #2ec4b6;
 }
+
+main {
+    margin: 0 5%;
+}
+
+footer {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.image-Laure {
+    border-radius: 50%;
+}
