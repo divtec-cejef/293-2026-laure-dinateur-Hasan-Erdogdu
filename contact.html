@@ -1,3 +1,4 @@
+<!-- JUSTE DU CTRL+C CTRL+V de Mr.Tirole -->
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -6,60 +7,58 @@
     <!-- Ajuste la taille de la page aux différents appareils : pc, mobiles, tablettes -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Titre de la page. Visible dans l'onglet du navigateur -->
-    <title>Me contacter? | Laure Dinateur</title>
+    <title>Me contacter | Laure Dinateur</title>
     <!-- Auteur -->
     <meta name="author" content="Hasan Erdogdu">
     <!-- Icône de base du site : FAVICON -->
     <link rel="icon" type="image/x-icon" href="_sources/images/favicon.ico"/>
-    <!-- Lien vers la feuille de style CSS principale -->
-    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
-
+<body class="page-contact">
 <header>
     <a href="index.html" class="logo">
         <div class="nom">Laure Dinateur</div>
         <div class="metier">Graphiste</div>
     </a>
-
     <nav>
-        <ul class="nav_links">
-            <a href="index.html"><li class="accueil">Accueil</li></a>
-            <a href="informations.html"><li class="quiSuisJe">Qui suis-je?</li></a>
-            <a href="contact.html"><li class="meContacter">Me contacter</li></a>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="informations.html">Qui suis-je ?</a></li>
+            <li><a class="active" href="contact.html">Me contacter</a></li>
         </ul>
     </nav>
 </header>
-
-<body>
 <main>
-<h1>Me contacter</h1>
-<h2>Informations générales</h2>
+    <!-- Titre principal (unique) de la page -->
+    <h1>Me contacter</h1>
+    <!-- Un paragraphe -->
+    <section>
+        <h2>Informations générales</h2>
+        <p>Actuellement, je ne cherche pas forcément de nouveaux travaux, mais je reste ouvert à toutes propositions. Si vous avez des questions n'hésitez pas à me contacter !</p>
 
-<p>Actuellement, je ne cherche pas forcément de nouveaux travaux, mais je reste ouvert à toutes propositions.
-    Si vous avez des questions n'hésitez pas à me contacter !</p>
+        <p>Appelez-moi sur mon mobile uniquement pour les demandes urgentes. Sinon, Twitter et email restent les meilleures façons de me joindre.</p>
 
-<p>Appelez-moi sur mon mobile uniquement pour les demandes urgentes.
-    Sinon, Twitter et email restent les meilleures façons de me joindre.</p>
-
-<h2>Informations de contact</h2>
-
-<ul class="contact-list">
-    <li><img src="_sources/images/phone.png" class="icon" alt="tel:"> 074 123 45 67</li>
-    <li><img src="_sources/images/mail.png" class="icon" alt="email:"> laure@dinateur.com</li>
-    <li><img src="_sources/images/twitter.png" class="icon" alt="twitter:"> @lauredi</li>
-    <li><img src="_sources/images/facebook.png" class="icon" alt="facebook:"> facebook</li>
-</ul>
+    </section>
+    <section>
+        <h2>Informations de contact</h2>
+        <ul class="contact-info">
+            <li><a href="tel:0741234567">074 123 45 67</a></li>
+            <li><a href="mailto:laure@dinateur.com">laure@dinateur.com</a></li>
+            <li><a href="https://twitter.com/@lauredi">@laureid</a></li>
+            <li><a href="https://facebook.com/laure.dinateur">facebook</a></li>
+        </ul>
+    </section>
 </main>
-</body>
 <footer>
-    <nav class="social-nav">
+    <nav>
         <ul>
-            <li><img src="_sources/images/twitter-draw.png" alt="Twitter"></li>
-            <li><img src="_sources/images/facebook-draw.png" alt="Facebook"></li>
+            <li><a href="https://twitter.com/lauredi"><img src="_sources/images/twitter-badge.png" alt="Ouvrir mon Twitter"></a></li>
+            <li><a href="https://facebook.com/laure.dinateur"><img src="_sources/images/facebook-badge.png" alt="Ouvrir mon Facebook"></a></li>
         </ul>
     </nav>
-
-    <p class="copyright">&copy;2016 Laure Dinateur</p>
+    <div>&copy; 2026 Laure Dinateur</div>
 </footer>
+
+</body>
 </html>
